@@ -15,6 +15,8 @@
   "dependencies": {
     "argv-parser": "*",
     "util": "*",
+    "request": "*",
+    "async": "*",
     "jsonfile": "*"
   }
 }
