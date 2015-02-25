@@ -1,0 +1,20 @@
+{
+  "name": "apigeeOrgAdmin",
+  "version": "0.8.0",
+  "description": "A CLI for Administering Apigee Edge Organizations",
+  "main": "lib/main.js",
+  "bin": {
+    "apigeeOrgAdmin": "lib/cli.js"
+  },
+  "keywords": [
+    "Apigee",
+    "CLI"
+  ],
+  "author": "Geir Sjurseth <geir.sjurseth@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "argv-parser": "*",
+    "util": "*",
+    "jsonfile": "*"
+  }
+}
