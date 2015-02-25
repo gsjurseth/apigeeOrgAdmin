@@ -17,6 +17,8 @@
     "util": "*",
     "request": "*",
     "async": "*",
+    "underscore": "*",
+    "mkdirp": "*",
     "jsonfile": "*"
   }
 }
