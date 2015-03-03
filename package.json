@@ -15,6 +15,7 @@
   "dependencies": {
     "argv-parser": "*",
     "util": "*",
+    "read": "*",
     "request": "*",
     "async": "*",
     "underscore": "*",
