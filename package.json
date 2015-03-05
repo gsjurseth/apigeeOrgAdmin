@@ -21,7 +21,7 @@
     "async": "*",
     "underscore": "*",
     "mkdirp": "*",
-    "unzip": "*",
+    "unzip2": "*",
     "fstream": "*",
     "jsonfile": "*"
   }
