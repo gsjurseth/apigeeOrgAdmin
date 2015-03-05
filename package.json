@@ -17,6 +17,7 @@
     "util": "*",
     "read": "*",
     "request": "*",
+    "fs": "*",
     "async": "*",
     "underscore": "*",
     "mkdirp": "*",
