@@ -7,6 +7,15 @@ Assuming you've only git cloned this source you can simply do the following
 
 >node lib/cli.js -o acme -b http://{managementServerHost}:{managementServerPort} -u user@mail.com -c export -d ~/testDest
 
-Optionally you can supply the -D option for debug output (quite verbose) or the -l option to specify your own list for export.
-
+# Options
+Pretty straightforward options
+  * -o  -> organization
+  * -b  -> baseurl (if not defined it assumes https://api.enterprise.apigee.com )
+  * -u  -> your username for login
+  * -c  -> command: import or export. Only export supported at this time
+  * -d  -> destination directory
+  * -D  -> turn on verbose logging info
+  * -l  -> supply your own comma delimited list for export/import (should be based of api mgmt uri paths)
+    # for example -l apiproducts,apps,developers
+  
 This should export everything into the destination directory. Import mode is forthcoming
