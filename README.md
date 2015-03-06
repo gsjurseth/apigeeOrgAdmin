@@ -16,6 +16,6 @@ Pretty straightforward options
   * -d  -> destination directory
   * -D  -> turn on verbose logging info
   * -l  -> supply your own comma delimited list for export/import (should be based of api mgmt uri paths)
-    # for example -l apiproducts,apps,developers
-  
+      # for example -l apiproducts,apps,developers
+
 This should export everything into the destination directory. Import mode is forthcoming
