@@ -12,7 +12,7 @@ Pretty straightforward options
   * -o  -> organization
   * -b  -> baseurl (if not defined it assumes https://api.enterprise.apigee.com )
   * -u  -> your username for login
-  * -c  -> command: import or export. Only export supported at this time
+  * -c  -> command: import or export.
   * -d  -> destination directory
   * -D  -> turn on verbose logging info
   * -l  -> supply your own comma delimited list for export/import (should be based of api mgmt uri paths)
@@ -20,4 +20,5 @@ Pretty straightforward options
 
 This should export everything into the destination directory.
 
+# Import Mode
 Import mode is now working for most things. I need to clean up how and when I recurse for additional data so that I can get things like key/value maps and host alias support working as desired. It is working well for proxies, apiproducts, developers and so on.
