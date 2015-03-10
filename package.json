@@ -22,6 +22,7 @@
     "underscore": "*",
     "mkdirp": "*",
     "unzip2": "*",
+    "easy-zip2": "*",
     "fstream": "*",
     "jsonfile": "*"
   }
