@@ -23,6 +23,7 @@
     "mkdirp": "*",
     "unzip2": "*",
     "easy-zip2": "*",
+    "log4js": "*",
     "fstream": "*",
     "jsonfile": "*"
   }
