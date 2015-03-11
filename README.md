@@ -2,10 +2,10 @@
 Used to administrate apigee organizations: orgs, pods, apis, developers ... all of it.
 
 # Example usage
-Assuming you've only git cloned this source you can simply do the following
->npm install
 
->node lib/cli.js -o acme -b http://{managementServerHost}:{managementServerPort} -u user@mail.com -c export -d ~/testDest
+>apigeeOrgAdmin -o acme -b http://{managementServerHost}:{managementServerPort} -u user@mail.com -c export -d ~/testDest
+
+Or you can leave off the -b and it will assume the apigee cloud
 
 # Options
 Pretty straightforward options
@@ -16,7 +16,7 @@ Pretty straightforward options
   * -d  -> destination directory
   * -D  -> turn on verbose logging info
   * -l  -> supply your own comma delimited list for export/import (should be based of api mgmt uri paths)
-      # for example -l apiproducts,apps,developers
+>for example -l apiproducts,apps,developers
 
 This should export everything into the destination directory.
 
