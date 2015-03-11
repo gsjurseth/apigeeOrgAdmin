@@ -1,6 +1,6 @@
 {
   "name": "apigee-org-admin",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "A CLI for Administering Apigee Edge Organizations",
   "main": "lib/main.js",
   "bin": {
