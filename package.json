@@ -1,5 +1,5 @@
 {
-  "name": "apigeeOrgAdmin",
+  "name": "apigee-org-admin",
   "version": "0.8.0",
   "description": "A CLI for Administering Apigee Edge Organizations",
   "main": "lib/main.js",
@@ -26,5 +26,17 @@
     "log4js": "*",
     "fstream": "*",
     "jsonfile": "*"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsjurseth/apigeeOrgAdmin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsjurseth/apigeeOrgAdmin/issues"
+  },
+  "homepage": "https://github.com/gsjurseth/apigeeOrgAdmin"
 }
